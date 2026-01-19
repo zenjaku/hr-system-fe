@@ -2,6 +2,8 @@
 
 This document outlines the design and architectural considerations for the HR System Frontend. The goal of this frontend is to provide a clean, intuitive, and responsive user interface for managing human resources data and functionalities.
 
+# NOT RESPONSIVE YET TO ALL DEVICES
+
 ## Technologies Used
 
 *   **HTML5:** For structuring the web content.
