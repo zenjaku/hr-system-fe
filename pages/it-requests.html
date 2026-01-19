@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../css/icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>HR System</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <a href="#" class="nav-logo">Logo</a>
+          <button class="sidebar-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div class="sidebar-content">
+          <nav class="sidebar-nav">
+            <ul>
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link">
+                  <i class="fa-solid fa-house"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="announcement.html" class="nav-link">
+                  <i class="fa-solid fa-bullhorn"></i>
+                  <span>Announcement</span>
+                </a>
+              </li>
+              <li class="nav-item has-submenu">
+                <a href="#" class="nav-link">
+                  <div>
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <span>Attendance</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                  <li><a href="face-recognition.html">Face Recognition</a></li>
+                  <li><a href="manual-time-in-out.html">Manual Time In and Out</a></li>
+                </ul>
+              </li>
+              <li class="nav-item has-submenu">
+                <a href="#" class="nav-link">
+                  <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <span>IT Management</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                  <li><a href="track-it-assets.html">Track IT Assets</a></li>
+                  <li><a href="it-requests.html">IT Requests</a></li>
+                  <li><a href="track-computers-locations.html">Track Computers Locations</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="payroll.html" class="nav-link">
+                  <i class="fa-solid fa-money-bill"></i>
+                  <span>Payroll</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <hr />
+          <!-- Bottom fixed section -->
+          <div class="sidebar-bottom">
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                  <span>Logout</span>
+                </a>
+              </li>
+            </ul>
+            <footer>
+              <span class="full-footer">
+                Template made by
+                <a href="https://zenjakucreations.vercel.app/" target="_blank">zenjakucreations</a>
+              </span>
+              <a href="https://zenjakucreations.vercel.app/" target="_blank" class="zc-logo">ZC</a>
+            </footer>
+          </div>
+        </div>
+      </aside>
+      <main class="main-content">
+        <header class="main-header">
+          <h1>IT Requests</h1>
+          <div class="user-profile">
+            <img src="https://picsum.photos/id/122/200/300" alt="User" />
+            <span>John Doe</span>
+          </div>
+        </header>
+        <section class="it-management-section">
+          <div class="card">
+            <h2>IT Service Requests</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Request ID</th>
+                  <th>Requested By</th>
+                  <th>Request Type</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>REQ-001</td>
+                  <td>John Doe</td>
+                  <td>New Software</td>
+                  <td><span class="status-onboarding">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>REQ-002</td>
+                  <td>Jane Smith</td>
+                  <td>Hardware Issue</td>
+                  <td><span class="status-active">In Progress</span></td>
+                </tr>
+                <tr>
+                  <td>REQ-003</td>
+                  <td>Peter Jones</td>
+                  <td>Access Request</td>
+                  <td><span class="status-active">Completed</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+    
+    <script src="../js/script.js"></script>
+  </body>
+</html>

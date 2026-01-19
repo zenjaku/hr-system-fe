@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/index", "destination": "/index.html" },
+    { "source": "/announcement", "destination": "/pages/announcement.html" },
+    { "source": "/attendance", "destination": "/pages/attendance.html" },
+    { "source": "/face-recognition", "destination": "/pages/face-recognition.html" },
+    { "source": "/it-management", "destination": "/pages/it-management.html" },
+    { "source": "/it-requests", "destination": "/pages/it-requests.html" },
+    { "source": "/manual-time-in-out", "destination": "/pages/manual-time-in-out.html" },
+    { "source": "/payroll", "destination": "/pages/payroll.html" },
+    { "source": "/track-computers-locations", "destination": "/pages/track-computers-locations.html" },
+    { "source": "/track-it-assets", "destination": "/pages/track-it-assets.html" }
+  ]
+}
